@@ -1,3 +1,18 @@
+* {
+    marginL 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
 body {
   margin: 0px;
   font-color: #fff
