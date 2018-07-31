@@ -6,11 +6,23 @@
 
 html {
     background-color: #fff;
-    color: #555;
+    color: #fff;
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 body {
@@ -20,14 +32,14 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-.main {
+/* .main {
   height: 750px;
   background-image: url(images/background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
+} */
+/*
 @media screen and (min-width:1000px){
   #container1 {
     height: 700px;
@@ -74,7 +86,7 @@ h2 {
   color: #fff;
   text-align: center;
   margin-top: -30px;
-}
+} */
 
 .name {
   color: #f26818;
