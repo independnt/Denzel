@@ -47,10 +47,18 @@ h1 {
     letter-spacing: 1px;
 }
 
-.social:link {
+.soLink:link {
     display: inline-block;
     text-decoration: none;
-    padding: 10px 10px;
+    padding: 0px 10px;
+}
+
+.social:hover {
+    border-radius: 200px;
+    border: 3px solid #f26818;
+    height: 55px;
+    width: 55px;
+    transition: border 0.3s, height 0.3s, width 0.3s;
 }
 
 /* .main {
