@@ -43,6 +43,14 @@ body {
 
 h1 {
     margin: 0;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.social:link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 10px;
 }
 
 /* .main {
