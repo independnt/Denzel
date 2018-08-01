@@ -41,10 +41,20 @@ body {
   text-align: center;
 }
 
-h1 {
-    margin: 0;
-    font-weight: 200;
+.greeting {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 100;
     letter-spacing: 1px;
+    font-size: 300%
+}
+
+.introduction {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 160%
 }
 
 .soLink:link {
@@ -119,4 +129,5 @@ h2 {
 
 .name {
   color: #f26818;
+  font-weight: bold;
 }
