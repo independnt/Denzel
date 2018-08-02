@@ -24,11 +24,51 @@ body {
 }
 
 /* ------------------------------------------*/
+/* HEADINGS */
+/*-------------------------------------------*/
+
+h1,
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 160%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ------------------------------------------*/
 /* REUSABLE COMPONENTS */
 /*-------------------------------------------*/
 .row {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+section {
+  padding: 70px;
+}
+
+/* ------------------------------------------*/
+/* PARAGRAPHS */
+/*-------------------------------------------*/
+
+.box p {
+    line-height: 150%;
+    padding-top: 40px;
+}
+
+.box img {
+    margin-left: 150px;
+    border-radius: 15px;
 }
 
 /* ------------------------------------------*/
@@ -48,22 +88,6 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-}
-
-.greeting {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    font-size: 300%
-}
-
-.introduction {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    font-size: 160%
 }
 
 .name {
@@ -111,9 +135,27 @@ header {
     border-bottom: 2px solid #f26818;
 }
 
+/* ------------------------------------------*/
+/* ABOUT */
+/*-------------------------------------------*/
+
 .about-me {
-    color: #555;
-    background-color: #f2f2f2;
+    color: #000;
+    background-color: #e6e6e6;
+}
+
+.about-title {
+    font-size: 200%;
+}
+
+.about-title:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 /* .main {
