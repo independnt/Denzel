@@ -43,4 +43,9 @@ $(document).ready(function() {
     offset: '50%'
   })
 
+  $("#card").flip({
+    axis: 'y',
+    trigger: 'click'
+  });
+  
 });

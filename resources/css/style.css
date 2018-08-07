@@ -54,6 +54,11 @@ h2 {
     margin-bottom: 30px;
 }
 
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
 /* ------------------------------------------*/
 /* REUSABLE COMPONENTS */
 /*-------------------------------------------*/
@@ -66,6 +71,10 @@ section {
   padding: 80px 0;
 }
 
+.box {
+    padding: 1%;
+}
+
 /* ------------------------------------------*/
 /* PARAGRAPHS */
 /*-------------------------------------------*/
@@ -75,7 +84,7 @@ section {
     padding-top: 10%;
 }
 
-.box img {
+.about-box img {
     margin-left: 25%;
     border-radius: 15px;
 }
@@ -241,14 +250,49 @@ header {
     background-attachment: fixed;
 }
 
-.tprojects-title:after {
+.projects-title:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.box img {
   display: block;
-  height: 2px;
-  background-color: #e67e22;
-  content: " ";
-  width: 150px;
-  margin: 0 auto;
-  margin-top: 30px;
+  height: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.project-details ul {
+    list-style: none;
+}
+
+.project-details ul li {
+    padding: 5px 0;
+    color: #333;
+    text-align: center;
+}
+
+.project-name{
+  text-align: center;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.project-box {
+    opacity: 0.8;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 90%;
+    margin-left: 5%;
+    -webkit-box-shadow: 0 2px 2px #efefef;
+            box-shadow: 0 2px 2px #efefef;
 }
 
 /* ------------------------------------------*/
@@ -337,4 +381,9 @@ footer p {
 
 .js-picture.animated {
     opacity: 1;
+}
+
+.front img {
+      width: 100%;
+      height: auto;
 }
