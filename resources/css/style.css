@@ -208,7 +208,7 @@ header {
 }
 
 /* ------------------------------------------*/
-/* TESTIMONIALS */
+/* PROJECTS */
 /*-------------------------------------------*/
 
 .section-testimonials {
@@ -226,4 +226,80 @@ header {
   width: 150px;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+/* ------------------------------------------*/
+/* FOOTER */
+/*-------------------------------------------*/
+
+footer {
+    background-color: #333;
+    padding: 30px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-icons {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-icons li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-icons li:last-child {
+    margin-right: 0px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-icons li a:link,
+.social-icons li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-icons li a:link,
+.social-icons li a:visited {
+    font-size: 140%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-github {
+    transition: color 0.4s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #1da1f2;
+}
+
+.ion-social-github:hover {
+    color: #6e5494;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 10px;
 }
