@@ -24,15 +24,23 @@ $(document).ready(function() {
         }, 1000, function() {
           var $target = $(target);
           $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
+          if ($target.is(":focus")) {
             return false;
           } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
+            $target.attr('tabindex','-1');
+            $target.focus();
           };
         });
       }
     }
   });
-  
+
+  /*animations*/
+
+  $('.js--picture').waypoint(function(direction) {
+    $('.js--picture').addClass('animated fadeInLeft')
+  }, {
+    offset: '50%'
+  })
+
 });

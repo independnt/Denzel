@@ -326,3 +326,15 @@ footer p {
     font-size: 90%;
     margin-top: 10px;
 }
+
+/* ------------------------------------------*/
+/* ANIMATION */
+/*-------------------------------------------*/
+
+.js--picture {
+    opacity: 0;
+}
+
+.js-picture.animated {
+    opacity: 1;
+}
