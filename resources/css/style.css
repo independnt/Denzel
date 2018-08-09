@@ -359,7 +359,7 @@ footer {
 }
 
 .ion-social-facebook,
-.ion-social-twitter,
+.ion-social-linkedin-outline,
 .ion-social-github {
     transition: color 0.4s;
 }
@@ -368,7 +368,7 @@ footer {
     color: #3b5998;
 }
 
-.ion-social-twitter:hover {
+.ion-social-linkedin-outline:hover {
     color: #1da1f2;
 }
 
