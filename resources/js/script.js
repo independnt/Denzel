@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+  $('h1.toshow').slideDown(1000);
+  $('h2.toshow').slideDown(1000);
+
   $('.js--section-about-me').waypoint(function(direction) {
       if(direction == "down"){
         $('nav').addClass('sticky');
