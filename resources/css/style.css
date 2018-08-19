@@ -56,7 +56,7 @@ h2 {
 
 h3 {
     font-size: 110%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 /* ------------------------------------------*/
@@ -262,7 +262,7 @@ header {
     background-attachment: fixed;
 }
 
-.projects-title:after {
+/* .projects-title:after {
     display: block;
     height: 2px;
     background-color: #e67e22;
@@ -270,7 +270,7 @@ header {
     width: 150px;
     margin: 0 auto;
     margin-top: 30px;
-}
+} */
 
 .box img {
   display: block;
@@ -305,8 +305,19 @@ header {
 
 .project-name{
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: -5px;
   color: #333;
+}
+
+.project-box a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.project-box a:hover {
+  color: #f26818;
 }
 
 .project-box {
