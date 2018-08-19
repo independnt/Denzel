@@ -288,6 +288,11 @@ header {
   padding-right: 10px;
 }
 
+.icon-small {
+  margin-right: 10px;
+  color: #e67e22;
+}
+
 .project-details ul {
     list-style: none;
 }
