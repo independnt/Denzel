@@ -275,10 +275,17 @@ header {
 .box img {
   display: block;
   height: 125px;
+  padding-top: 10px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
   width: 50%;
+}
+
+.project-details {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .project-details ul {
