@@ -260,7 +260,7 @@ header {
 /*-------------------------------------------*/
 
 .section-projects {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/art-background-min.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/lightbulb.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
